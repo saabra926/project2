@@ -1,6 +1,6 @@
 import bcrypt from "bcryptjs"
 import { NextResponse } from "next/server"
-import connection from "@/lib/mongoose"
+import connection from "@/lib/mongoose";
 import User from "@/model/userModel"
 
 
